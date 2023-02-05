@@ -1,4 +1,4 @@
-package me.CHANGEME.slimefunaddon;
+package me.foeyii.slimefunaddon;
 
 import org.bukkit.Material;
 import org.bukkit.NamespacedKey;
