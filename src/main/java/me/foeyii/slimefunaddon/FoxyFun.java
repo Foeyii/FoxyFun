@@ -28,7 +28,7 @@ public class FoxyFun extends JavaPlugin implements SlimefunAddon {
          * 1. Creating a new Category
          * This Category will use the following ItemStack
          */
-        ItemStack itemGroupItem = new CustomItemStack(Material.DIAMOND, "&6FoxyFun", "", "&7> Click to open");
+        ItemStack itemGroupItem = new CustomItemStack(Material.CLAY_BALL, "&6FoxyFun", "", "&7> Click to open");
 
         // Give your Category a unique id.
         NamespacedKey itemGroupId = new NamespacedKey(this, "addon_category");
@@ -39,7 +39,7 @@ public class FoxyFun extends JavaPlugin implements SlimefunAddon {
          * This class has many constructors, it is very important
          * that you give each item a unique id.
          */
-        SlimefunItemStack slimefunItem = new SlimefunItemStack("COOL_DIAMOND", Material.DIAMOND, "&4Cool Diamond", "&c+20% Coolness");
+        SlimefunItemStack slimefunItem = new SlimefunItemStack("COMPRESSED_DIAMOND", Material.DIAMOND, "&bCompressed Diamond", "&6FoxyFun");
 
         /*
          * 3. Creating a Recipe
